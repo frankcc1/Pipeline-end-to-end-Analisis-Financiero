@@ -39,6 +39,13 @@ pip install -r requirements.txt
 # Análisis
 ![Reporte del proyecto](Reporte/Reporte.jpeg)
 
+
+# Case 2
+![Reporte del proyecto](Reporte/ReporteRiesgo.jpeg)
+![Reporte del proyecto](Reporte/Histograma.jpeg)
+![Reporte del proyecto](Reporte/Tendencia.jpeg)
+![Reporte del proyecto](Reporte/Maximun.jpeg)
+
 ### Conclusiones 
 
 El Fondo Sura Ultra Cash Soles demuestra, ser un instrumento idóneo para la Gestión 
