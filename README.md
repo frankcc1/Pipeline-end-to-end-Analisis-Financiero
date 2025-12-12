@@ -36,5 +36,32 @@ env\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+# Análisis
+![Reporte del proyecto](Reporte/Reporte.jpeg)
 
-```bash
+### Conclusiones 
+
+El Fondo Sura Ultra Cash Soles demuestra, ser un instrumento idóneo para la Gestión 
+de Tesorería Corporativa y para perfiles de inversión Conservadores. Su 
+comportamiento descarta la exposición a riesgos de mercado significativos. 
+
+Esta conclusión se sustenta en los siguientes hallazgos: 
+
+• Perfil de Riesgo Nulo (VaR Positivo): El análisis de Valor en Riesgo (VaR) confirma 
+la seguridad del activo en múltiples escenarios. Al 99% de confianza, el VaR es 
+de +0.000437%, y al 97.5% de confianza, mejora a +0.005180%. Ambos 
+resultados certifican que el fondo no proyecta pérdidas nominales. 
+
+• Estabilidad (Volatilidad): La volatilidad anual de 0.0775% es inmaterial 
+comparada con cualquier otro activo de renta fija o variable. Esto valida que el 
+fondo inmuniza el capital contra la volatilidad de mercado. 
+
+• Resiliencia Operativa (Drawdown): La prueba de estrés histórico (Maximum 
+Drawdown) reveló una caída máxima de -0.04% en tres años, con una 
+recuperación inmediata. Desde 2023 a la fecha, el Drawdown ha sido 0.00%, lo 
+que demuestra una solidez absoluta ante choques de liquidez recientes. 
+
+• Eficiencia en Captura de Tasas: Con una rentabilidad acumulada del 18.84% 
+(aprox. 6.28% anual promedio), el instrumento ha logrado trasladar 
+eficientemente las tasas de referencia altas del BCRP al inversor, superando la 
+inflación promedio del periodo y preservando el poder adquisitivo de la caja.
