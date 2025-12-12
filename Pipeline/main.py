@@ -83,7 +83,6 @@ def run_pipeline():
 
     extraction_errors = 0
 
-    # === TRUCO SENIOR: CAMBIO DE CONTEXTO ===
     # Nos movemos a la carpeta Data_Extraction para que los archivos se guarden ahí
     try:
         log.info(f"📍 Cambiando directorio de trabajo a: {EXTRACTION_DIR}")
