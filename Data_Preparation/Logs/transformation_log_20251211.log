@@ -1,0 +1,118 @@
+2025-12-11 20:27:42 - INFO - Iniciando proceso de Transformación de Datos
+2025-12-11 20:27:42 - INFO - Procesando archivo: Treasury.xlsx
+2025-12-11 20:27:43 - INFO - Archivo guardado exitosamente: Treasury_Processed.xlsx - Registros: 3290
+2025-12-11 20:27:43 - INFO - Procesando archivo: sbs_soberana.xls
+2025-12-11 20:27:43 - INFO - Archivo guardado exitosamente: SBS_Soberana_Processed.xlsx - Registros: 245
+2025-12-11 20:27:43 - INFO - Procesando archivo: sbs_bcrp.xls
+2025-12-11 20:27:44 - INFO - Archivo guardado exitosamente: SBS_BCRP_Processed.xlsx - Registros: 3185
+2025-12-11 20:27:44 - INFO - Procesando archivo: curva_dolares.xls
+2025-12-11 20:27:44 - INFO - Archivo guardado exitosamente: Curva_Dolares_Processed.xlsx - Registros: 1225
+2025-12-11 20:31:45 - INFO - Iniciando proceso de Transformación de Datos
+2025-12-11 20:31:45 - INFO - Procesando archivo: Treasury.xlsx
+2025-12-11 20:31:47 - INFO - Archivo guardado exitosamente: Treasury_Processed.xlsx - Registros: 3290
+2025-12-11 20:31:47 - INFO - Procesando archivo: sbs_soberana.xls
+2025-12-11 20:31:47 - INFO - Archivo guardado exitosamente: SBS_Soberana_Processed.xlsx - Registros: 245
+2025-12-11 20:31:47 - INFO - Procesando archivo: sbs_bcrp.xls
+2025-12-11 20:31:48 - INFO - Archivo guardado exitosamente: SBS_BCRP_Processed.xlsx - Registros: 3185
+2025-12-11 20:31:48 - INFO - Procesando archivo: curva_dolares.xls
+2025-12-11 20:31:48 - INFO - Archivo guardado exitosamente: Curva_Dolares_Processed.xlsx - Registros: 1225
+2025-12-11 20:48:15 - INFO - \u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+2025-12-11 20:48:15 - INFO - \u2551       INICIO DEL PIPELINE FINANCIERO (ETL)             \u2551
+2025-12-11 20:48:15 - INFO - \u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+2025-12-11 20:48:15 - INFO - >>> FASE 1: EXTRACCIÓN DE DATOS (RAW)
+2025-12-11 20:48:15 - INFO -    \u25ba Ejecutando extracción: Curva Treasury (USA)
+2025-12-11 20:48:27 - INFO -      \u2714 ÉXITO: Archivo guardado: Treasury.xlsx
+2025-12-11 20:48:28 - INFO -    \u25ba Ejecutando extracción: Curva Soberana Soles (SBS)
+2025-12-11 20:49:35 - INFO -      \u2714 ÉXITO: Archivo guardado: sbs_soberana.xls
+2025-12-11 20:49:36 - INFO -    \u25ba Ejecutando extracción: Curvas CD BCRP (SBS)
+2025-12-11 20:50:41 - INFO -      \u2714 ÉXITO: Archivo guardado: sbs_bcrp.xls
+2025-12-11 20:50:42 - INFO -    \u25ba Ejecutando extracción: Curva Dólares CP (SBS)
+2025-12-11 20:51:48 - INFO -      \u2714 ÉXITO: Archivo guardado: curva_dolares.xls
+2025-12-11 20:51:49 - INFO - \u2714 FASE 1 COMPLETADA SIN ERRORES.
+2025-12-11 20:51:49 - INFO - ----------------------------------------------------------
+2025-12-11 20:51:49 - INFO - >>> FASE 2: TRANSFORMACIÓN Y LIMPIEZA (PROCESS)
+2025-12-11 20:51:49 - INFO - Iniciando proceso de Transformación de Datos
+2025-12-11 20:51:49 - INFO - Procesando archivo: Treasury.xlsx
+2025-12-11 20:51:49 - ERROR - Fallo en process_treasury: No se encuentra C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Data_Extraction\Raw_Files\Treasury.xlsx
+2025-12-11 20:51:49 - INFO -      \u2714 Treasury Processed
+2025-12-11 20:51:49 - INFO - Procesando archivo: sbs_soberana.xls
+2025-12-11 20:51:49 - ERROR - Fallo en process_sbs_soberana: No se encuentra C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Data_Extraction\Raw_Files\sbs_soberana.xls
+2025-12-11 20:51:49 - INFO -      \u2714 SBS Soberana Processed
+2025-12-11 20:51:49 - INFO - Procesando archivo: sbs_bcrp.xls
+2025-12-11 20:51:49 - ERROR - Fallo en process_sbs_bcrp: No se encuentra C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Data_Extraction\Raw_Files\sbs_bcrp.xls
+2025-12-11 20:51:49 - INFO -      \u2714 SBS BCRP Processed
+2025-12-11 20:51:49 - INFO - Procesando archivo: curva_dolares.xls
+2025-12-11 20:51:49 - ERROR - Fallo en process_curva_dolares: No se encuentra C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Data_Extraction\Raw_Files\curva_dolares.xls
+2025-12-11 20:51:49 - INFO -      \u2714 Curva Dólares Processed
+2025-12-11 20:51:49 - INFO - \u2714 FASE 2 COMPLETADA EXITOSAMENTE.
+2025-12-11 20:51:49 - INFO - ==========================================================
+2025-12-11 20:51:49 - INFO -    FIN DEL PIPELINE | Duración Total: 0:03:33.203454
+2025-12-11 20:51:49 - INFO - ==========================================================
+2025-12-11 21:00:12 - INFO - \u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+2025-12-11 21:00:12 - INFO - \u2551       INICIO DEL PIPELINE FINANCIERO (ETL)             \u2551
+2025-12-11 21:00:12 - INFO - \u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+2025-12-11 21:00:12 - INFO - >>> FASE 1: EXTRACCIÓN DE DATOS (RAW)
+2025-12-11 21:00:12 - INFO - \U0001f4cd Cambiando directorio de trabajo a: C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Data_Extraction
+2025-12-11 21:00:12 - INFO -    \u25ba Ejecutando extracción: Curva Treasury (USA)
+2025-12-11 21:00:23 - INFO -      \u2714 ÉXITO: Archivo guardado: Treasury.xlsx
+2025-12-11 21:00:24 - INFO -    \u25ba Ejecutando extracción: Curva Soberana Soles (SBS)
+2025-12-11 21:01:50 - INFO -      \u2714 ÉXITO: Archivo guardado: sbs_soberana.xls
+2025-12-11 21:01:51 - INFO -    \u25ba Ejecutando extracción: Curvas CD BCRP (SBS)
+2025-12-11 21:03:40 - INFO -      \u2714 ÉXITO: Archivo guardado: sbs_bcrp.xls
+2025-12-11 21:03:41 - INFO -    \u25ba Ejecutando extracción: Curva Dólares CP (SBS)
+2025-12-11 21:05:27 - INFO -      \u2714 ÉXITO: Archivo guardado: curva_dolares.xls
+2025-12-11 21:05:28 - INFO - \U0001f4cd Regresando directorio de trabajo a: C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Pipeline
+2025-12-11 21:05:28 - INFO - \u2714 FASE 1 COMPLETADA SIN ERRORES.
+2025-12-11 21:05:28 - INFO - ----------------------------------------------------------
+2025-12-11 21:05:28 - INFO - >>> FASE 2: TRANSFORMACIÓN Y LIMPIEZA (PROCESS)
+2025-12-11 21:05:28 - INFO - Iniciando proceso de Transformación de Datos
+2025-12-11 21:05:28 - INFO - Procesando archivo: Treasury.xlsx
+2025-12-11 21:05:29 - INFO - Archivo guardado exitosamente: Treasury_Processed.xlsx - Registros: 3304
+2025-12-11 21:05:29 - ERROR -      \u2716 Treasury FAILED
+2025-12-11 21:05:29 - INFO - Procesando archivo: sbs_soberana.xls
+2025-12-11 21:05:29 - INFO - Archivo guardado exitosamente: SBS_Soberana_Processed.xlsx - Registros: 246
+2025-12-11 21:05:29 - ERROR -      \u2716 SBS Soberana FAILED
+2025-12-11 21:05:29 - INFO - Procesando archivo: sbs_bcrp.xls
+2025-12-11 21:05:30 - INFO - Archivo guardado exitosamente: SBS_BCRP_Processed.xlsx - Registros: 3198
+2025-12-11 21:05:30 - ERROR -      \u2716 SBS BCRP FAILED
+2025-12-11 21:05:30 - INFO - Procesando archivo: curva_dolares.xls
+2025-12-11 21:05:31 - INFO - Archivo guardado exitosamente: Curva_Dolares_Processed.xlsx - Registros: 1230
+2025-12-11 21:05:31 - ERROR -      \u2716 Curva Dólares FAILED
+2025-12-11 21:05:31 - WARNING - \u26a0 FASE 2 CON ERRORES: 4
+2025-12-11 21:05:31 - INFO - ==========================================================
+2025-12-11 21:05:31 - INFO -    FIN DEL PIPELINE | Duración Total: 0:05:19.046371
+2025-12-11 21:05:31 - INFO - ==========================================================
+2025-12-11 21:40:30 - INFO - \u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+2025-12-11 21:40:30 - INFO - \u2551       INICIO DEL PIPELINE FINANCIERO (ETL)             \u2551
+2025-12-11 21:40:30 - INFO - \u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+2025-12-11 21:40:30 - INFO - >>> FASE 1: EXTRACCIÓN DE DATOS (RAW)
+2025-12-11 21:40:30 - INFO - \U0001f4cd Cambiando directorio de trabajo a: C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Data_Extraction
+2025-12-11 21:40:30 - INFO -    \u25ba Ejecutando extracción: Curva Treasury (USA)
+2025-12-11 21:40:41 - INFO -      \u2714 ÉXITO: Archivo guardado: Treasury.xlsx
+2025-12-11 21:40:42 - INFO -    \u25ba Ejecutando extracción: Curva Soberana Soles (SBS)
+2025-12-11 21:42:19 - INFO -      \u2714 ÉXITO: Archivo guardado: sbs_soberana.xls
+2025-12-11 21:42:20 - INFO -    \u25ba Ejecutando extracción: Curvas CD BCRP (SBS)
+2025-12-11 21:43:53 - INFO -      \u2714 ÉXITO: Archivo guardado: sbs_bcrp.xls
+2025-12-11 21:43:54 - INFO -    \u25ba Ejecutando extracción: Curva Dólares CP (SBS)
+2025-12-11 21:45:07 - INFO -      \u2714 ÉXITO: Archivo guardado: curva_dolares.xls
+2025-12-11 21:45:08 - INFO - \U0001f4cd Regresando directorio de trabajo a: C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Pipeline
+2025-12-11 21:45:08 - INFO - \u2714 FASE 1 COMPLETADA SIN ERRORES.
+2025-12-11 21:45:08 - INFO - ----------------------------------------------------------
+2025-12-11 21:45:08 - INFO - >>> FASE 2: TRANSFORMACIÓN Y LIMPIEZA (PROCESS)
+2025-12-11 21:45:08 - INFO - Iniciando proceso de Transformación de Datos
+2025-12-11 21:45:08 - INFO - Procesando archivo: Treasury.xlsx
+2025-12-11 21:45:09 - INFO - Archivo guardado exitosamente: Treasury_Processed.xlsx - Registros: 3304
+2025-12-11 21:45:09 - INFO -      \u2714 Treasury Processed & Saved
+2025-12-11 21:45:09 - INFO - Procesando archivo: sbs_soberana.xls
+2025-12-11 21:45:09 - INFO - Archivo guardado exitosamente: SBS_Soberana_Processed.xlsx - Registros: 246
+2025-12-11 21:45:09 - INFO -      \u2714 SBS Soberana Processed & Saved
+2025-12-11 21:45:09 - INFO - Procesando archivo: sbs_bcrp.xls
+2025-12-11 21:45:10 - INFO - Archivo guardado exitosamente: SBS_BCRP_Processed.xlsx - Registros: 744
+2025-12-11 21:45:10 - INFO -      \u2714 SBS BCRP Processed & Saved
+2025-12-11 21:45:10 - INFO - Procesando archivo: curva_dolares.xls
+2025-12-11 21:45:11 - INFO - Archivo guardado exitosamente: Curva_Dolares_Processed.xlsx - Registros: 1230
+2025-12-11 21:45:11 - INFO -      \u2714 Curva Dólares Processed & Saved
+2025-12-11 21:45:11 - INFO - \u2714 FASE 2 COMPLETADA EXITOSAMENTE.
+2025-12-11 21:45:11 - INFO - ==========================================================
+2025-12-11 21:45:11 - INFO -    FIN DEL PIPELINE | Duración Total: 0:04:40.710183
+2025-12-11 21:45:11 - INFO - ==========================================================

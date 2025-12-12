@@ -1,0 +1,11 @@
+pandas
+requests
+selenium
+beautifulsoup4
+lxml
+openpyxl
+Pillow
+plotly
+nbformat
+xlrd
+html5lib

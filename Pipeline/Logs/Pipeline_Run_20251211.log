@@ -1,0 +1,50 @@
+[2025-12-11 21:00:12] [INFO] ╔════════════════════════════════════════════════════════╗
+[2025-12-11 21:00:12] [INFO] ║       INICIO DEL PIPELINE FINANCIERO (ETL)             ║
+[2025-12-11 21:00:12] [INFO] ╚════════════════════════════════════════════════════════╝
+[2025-12-11 21:00:12] [INFO] >>> FASE 1: EXTRACCIÓN DE DATOS (RAW)
+[2025-12-11 21:00:12] [INFO] 📍 Cambiando directorio de trabajo a: C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Data_Extraction
+[2025-12-11 21:00:12] [INFO]    ► Ejecutando extracción: Curva Treasury (USA)
+[2025-12-11 21:00:23] [INFO]      ✔ ÉXITO: Archivo guardado: Treasury.xlsx
+[2025-12-11 21:00:24] [INFO]    ► Ejecutando extracción: Curva Soberana Soles (SBS)
+[2025-12-11 21:01:50] [INFO]      ✔ ÉXITO: Archivo guardado: sbs_soberana.xls
+[2025-12-11 21:01:51] [INFO]    ► Ejecutando extracción: Curvas CD BCRP (SBS)
+[2025-12-11 21:03:40] [INFO]      ✔ ÉXITO: Archivo guardado: sbs_bcrp.xls
+[2025-12-11 21:03:41] [INFO]    ► Ejecutando extracción: Curva Dólares CP (SBS)
+[2025-12-11 21:05:27] [INFO]      ✔ ÉXITO: Archivo guardado: curva_dolares.xls
+[2025-12-11 21:05:28] [INFO] 📍 Regresando directorio de trabajo a: C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Pipeline
+[2025-12-11 21:05:28] [INFO] ✔ FASE 1 COMPLETADA SIN ERRORES.
+[2025-12-11 21:05:28] [INFO] ----------------------------------------------------------
+[2025-12-11 21:05:28] [INFO] >>> FASE 2: TRANSFORMACIÓN Y LIMPIEZA (PROCESS)
+[2025-12-11 21:05:29] [ERROR]      ✖ Treasury FAILED
+[2025-12-11 21:05:29] [ERROR]      ✖ SBS Soberana FAILED
+[2025-12-11 21:05:30] [ERROR]      ✖ SBS BCRP FAILED
+[2025-12-11 21:05:31] [ERROR]      ✖ Curva Dólares FAILED
+[2025-12-11 21:05:31] [WARNING] ⚠ FASE 2 CON ERRORES: 4
+[2025-12-11 21:05:31] [INFO] ==========================================================
+[2025-12-11 21:05:31] [INFO]    FIN DEL PIPELINE | Duración Total: 0:05:19.046371
+[2025-12-11 21:05:31] [INFO] ==========================================================
+[2025-12-11 21:40:30] [INFO] ╔════════════════════════════════════════════════════════╗
+[2025-12-11 21:40:30] [INFO] ║       INICIO DEL PIPELINE FINANCIERO (ETL)             ║
+[2025-12-11 21:40:30] [INFO] ╚════════════════════════════════════════════════════════╝
+[2025-12-11 21:40:30] [INFO] >>> FASE 1: EXTRACCIÓN DE DATOS (RAW)
+[2025-12-11 21:40:30] [INFO] 📍 Cambiando directorio de trabajo a: C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Data_Extraction
+[2025-12-11 21:40:30] [INFO]    ► Ejecutando extracción: Curva Treasury (USA)
+[2025-12-11 21:40:41] [INFO]      ✔ ÉXITO: Archivo guardado: Treasury.xlsx
+[2025-12-11 21:40:42] [INFO]    ► Ejecutando extracción: Curva Soberana Soles (SBS)
+[2025-12-11 21:42:19] [INFO]      ✔ ÉXITO: Archivo guardado: sbs_soberana.xls
+[2025-12-11 21:42:20] [INFO]    ► Ejecutando extracción: Curvas CD BCRP (SBS)
+[2025-12-11 21:43:53] [INFO]      ✔ ÉXITO: Archivo guardado: sbs_bcrp.xls
+[2025-12-11 21:43:54] [INFO]    ► Ejecutando extracción: Curva Dólares CP (SBS)
+[2025-12-11 21:45:07] [INFO]      ✔ ÉXITO: Archivo guardado: curva_dolares.xls
+[2025-12-11 21:45:08] [INFO] 📍 Regresando directorio de trabajo a: C:\Users\HP\Desktop\Practica\Proyectos\DataExtraction_Riesgos\Pipeline
+[2025-12-11 21:45:08] [INFO] ✔ FASE 1 COMPLETADA SIN ERRORES.
+[2025-12-11 21:45:08] [INFO] ----------------------------------------------------------
+[2025-12-11 21:45:08] [INFO] >>> FASE 2: TRANSFORMACIÓN Y LIMPIEZA (PROCESS)
+[2025-12-11 21:45:09] [INFO]      ✔ Treasury Processed & Saved
+[2025-12-11 21:45:09] [INFO]      ✔ SBS Soberana Processed & Saved
+[2025-12-11 21:45:10] [INFO]      ✔ SBS BCRP Processed & Saved
+[2025-12-11 21:45:11] [INFO]      ✔ Curva Dólares Processed & Saved
+[2025-12-11 21:45:11] [INFO] ✔ FASE 2 COMPLETADA EXITOSAMENTE.
+[2025-12-11 21:45:11] [INFO] ==========================================================
+[2025-12-11 21:45:11] [INFO]    FIN DEL PIPELINE | Duración Total: 0:04:40.710183
+[2025-12-11 21:45:11] [INFO] ==========================================================

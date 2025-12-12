@@ -1,0 +1,16 @@
+[2025-12-11 14:54:07] [INFO] ╔════════════════════════════════════════════════════════╗
+[2025-12-11 14:54:07] [INFO] ║   INICIO DEL PROCESO DE EXTRACCIÓN (RAW FILES)         ║
+[2025-12-11 14:54:07] [INFO] ╚════════════════════════════════════════════════════════╝
+[2025-12-11 14:54:07] [INFO] --- Ejecutando módulo: Curva Treasury (USA) ---
+[2025-12-11 14:54:19] [INFO] ✔ ÉXITO | Archivo guardado: Treasury.xlsx
+[2025-12-11 14:54:20] [INFO] --- Ejecutando módulo: Curva Soberana Soles (SBS) ---
+[2025-12-11 14:55:34] [INFO] ✔ ÉXITO | Archivo guardado: sbs_soberana.xls
+[2025-12-11 14:55:35] [INFO] --- Ejecutando módulo: Curvas CD BCRP (SBS) ---
+[2025-12-11 14:57:56] [INFO] ✔ ÉXITO | Archivo guardado: sbs_bcrp.xls
+[2025-12-11 14:57:57] [INFO] --- Ejecutando módulo: Curva Dólares CP (SBS) ---
+[2025-12-11 14:59:21] [INFO] ✔ ÉXITO | Archivo guardado: curva_dolares.xls
+[2025-12-11 14:59:22] [INFO] --- Ejecutando módulo: Fondo Sura Ultra Cash (SMV) ---
+[2025-12-11 14:59:47] [INFO] ✔ ÉXITO | Archivo guardado: sura_fondo.xls
+[2025-12-11 14:59:48] [INFO] ----------------------------------------------------------
+[2025-12-11 14:59:48] [INFO] FIN DEL PROCESO. | Duración: 0:05:40.971382 | Errores: 0
+[2025-12-11 14:59:48] [INFO] Verificar carpeta 'Raw_Files' para los archivos descargados.
